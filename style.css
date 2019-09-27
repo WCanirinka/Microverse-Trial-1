@@ -1,6 +1,26 @@
-#survey-form {
+body{
+  background-color: #A9D7D1;
+}
+main {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+#survey-form {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+label {
+  display: inline;
+  margin: 10px;
+  padding: 20px;
+}
+
+input {
+  display: inline;
+  margin: 5px;
 
 }
