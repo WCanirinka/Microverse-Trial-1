@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Survey Form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
+  <title>Survey Form</title>
 </head>
+
 <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Let us know how we can improve freeCodeCamp</p>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Let us know how we can improve freeCodeCamp</p>
+
+  <form id="survey-form">
+    <label id="name-label">Name: </label><input type="text" id="name" placeholder="Enter your name" required />
+    <label id="email-label">Email: </label><input type="email" id="email" placeholder="Enter your email" required />
+    <label id="number-label">Age: </label><input type="number" id="number" placeholder="Enter your age" min="1"
+      max="1000" required />
+
+
+
+  </form>
 </body>
+
 </html>
